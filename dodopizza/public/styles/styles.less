@@ -1,0 +1,58 @@
+@main-color-app: #FF6800;
+
+body {
+  margin: 0;
+}
+
+header {
+  .logo {
+    width: 50px;
+    height: 50px;
+  }
+
+  .title {
+    font-weight: bold;
+    font-size: 28px;
+    text-transform: uppercase;
+  }
+
+  .sub-title {
+    font-size: 12px;
+  }
+
+  .city {
+    color: @main-color-app;
+  }
+
+  .star {
+    color: #eecd00;
+  }
+}
+
+.navbar {
+  .nav-link {
+    color: #000;
+    font-size: 14px;
+    padding-left: 0 !important;
+    padding-right: 20px !important;
+
+    &:hover {
+      color: @main-color-app;
+    }
+  }
+
+  #cart {
+    background: @main-color-app;
+    color: #fff;
+    border-radius: 25px;
+    padding: 10px 30px;
+
+    &:hover {
+      background: #E96000;
+    }
+
+    &:focus {
+      box-shadow: none;
+    }
+  }
+}

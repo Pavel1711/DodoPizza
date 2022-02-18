@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+}
+header .logo {
+  width: 50px;
+  height: 50px;
+}
+header .title {
+  font-weight: bold;
+  font-size: 28px;
+  text-transform: uppercase;
+}
+header .sub-title {
+  font-size: 12px;
+}
+header .city {
+  color: #FF6800;
+}
+header .star {
+  color: #eecd00;
+}
+.navbar .nav-link {
+  color: #000;
+  font-size: 14px;
+  padding-left: 0 !important;
+  padding-right: 20px !important;
+}
+.navbar .nav-link:hover {
+  color: #FF6800;
+}
+.navbar #cart {
+  background: #FF6800;
+  color: #fff;
+  border-radius: 25px;
+  padding: 10px 30px;
+}
+.navbar #cart:hover {
+  background: #E96000;
+}
+.navbar #cart:focus {
+  box-shadow: none;
+}
