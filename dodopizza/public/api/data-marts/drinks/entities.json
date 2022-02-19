@@ -13,48 +13,56 @@
   },
   "results": [
     {
+      "id": 13,
       "title": "Coca-Cola Zero",
       "composition": null,
       "price": 99,
       "media": "https://sun9-3.userapi.com/impg/opT7ykrVaBLetWbDOuQ39XEJjEG7oRoa9RSxXw/jZIKdJWOMiA.jpg?size=584x584&quality=96&sign=ab39fdbecaa1f09237b242da3a50e157&type=album"
     },
     {
+      "id": 14,
       "title": "Coca-Cola",
       "composition": null,
       "price": 99,
       "media": "https://sun9-25.userapi.com/impg/6mZrxnTkJZRLMpGLfPMGcLXtRjD00NLMpEckQg/w0dOqc4Q5Ls.jpg?size=584x584&quality=96&sign=fb35c5a3b4fb85b95c94a9ec82d96713&type=album"
     },
     {
+      "id": 15,
       "title": "Coca-Cola Lime",
       "composition": null,
       "price": 99,
       "media": "https://sun9-81.userapi.com/impg/lfq7kgxcLTZJ_US9awk3VK7-skfHyIeqD1cy2g/HNIWRXpbw1k.jpg?size=584x584&quality=96&sign=ff836d7976f047808a27a972dca7ed31&type=album"
     },
     {
+      "id": 16,
       "title": "Coca-Cola Vanilla",
       "composition": null,
       "price": 99,
       "media": "https://sun9-88.userapi.com/impg/q4eQ5PxWUWPrTmSvhf47qcf3LB_S72h7eUq-rQ/Xi5JUqWoSFI.jpg?size=584x584&quality=96&sign=46ea6ce694ce179d8cf1f141b2952640&type=album"
     },
     {
+      "id": 17,
       "title": "Sprite",
       "composition": null,
       "price": 99,
       "media": "https://sun9-15.userapi.com/impg/cchuuGJ_OuSSF51GcLvV37Tdn1POx4ypgFMBFA/h4hF8aZpv_o.jpg?size=584x584&quality=96&sign=2a84cae6bc550eaf37c039bee9ad1192&type=album"
     },
     {
+      "id": 18,
       "title": "Fanta",
       "composition": null,
       "price": 99,
       "media": "https://sun9-55.userapi.com/impg/I_MjnUr-ciaMmpd52Ph_ZwLv3Gdp2I8y-0P8Lg/s1QHu-jriO0.jpg?size=584x584&quality=96&sign=a41ba624a54dc32935a8fd5bc94739d9&type=album"
     },
     {
+      "id": 19,
       "title": "Schweppes bitter lemon",
       "composition": null,
       "price": 79,
       "media": "https://sun9-81.userapi.com/impg/iiEbzBib8thsleBhKcNZlsjzwhtXtrR6auVqTQ/HMxdcaPKn2s.jpg?size=584x584&quality=96&sign=66237fe55dd9042610b49cea1ce09f70&type=album"
     },
     {
+      "id": 20,
       "title": "FuzeTea Черный с лимоном и лемонграссом",
       "composition": null,
       "price": 79,

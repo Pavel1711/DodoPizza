@@ -40,3 +40,18 @@ header .star {
 .navbar #cart:focus {
   box-shadow: none;
 }
+.entity img {
+  transition: 0.5s;
+}
+.entity img:hover {
+  transform: scale(1.1);
+}
+.entity .title,
+.entity .price {
+  font-weight: 500;
+  font-size: 20px;
+}
+.entity .composition {
+  font-size: 14px;
+  color: #676d7a;
+}

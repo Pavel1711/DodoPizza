@@ -6,28 +6,28 @@ export default function Navigation(): JSX.Element {
   const navItem = [
     {
       name: 'Пицца',
-      href: '/'
+      href: '#pizza'
     },
     {
       name: 'Комбо',
-      href: '/'
+      href: '#combo'
     },
     {
       name: 'Закуски',
-      href: '/'
+      href: '#snacks'
     },
     {
       name: 'Десерты',
-      href: '/'
+      href: '#desserts'
     },
     {
       name: 'Напитки',
-      href: '/'
+      href: '#drinks'
     },
   ]
 
   return (
-    <nav className="navbar navbar-expand-lg sticky-top">
+    <nav className="navbar navbar-expand-lg sticky-top bg-white">
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav">
           {navItem.map((nav, key) => (
