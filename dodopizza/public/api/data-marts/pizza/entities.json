@@ -1,0 +1,88 @@
+{
+  "count": 12,
+  "limit": 12,
+  "offset": 0,
+  "next": "/api/data-marts/pizza/entities.json?offset=12&limit=12",
+  "previous": "",
+  "meta": {
+    "data_mart": {
+      "id": 4,
+      "name": "Пицца",
+      "slug": "pizza"
+    }
+  },
+  "results": [
+    {
+      "title": "Чикен бомбони",
+      "composition": "Куриные кусочки, сладкий перец, смесь сыров чеддер и пармезан, моцарелла, красный лук, соус сладкий чили, соус альфредо",
+      "price": 425,
+      "media": "https://sun9-14.userapi.com/impg/rEPKJXy_X7qmI-WClCSEwNaJKHacbGQ96-gEpg/OJHXQcsUtF8.jpg?size=584x584&quality=96&sign=6f9bca58a2f0ba46412a8bc7ba655582&type=album"
+    },
+    {
+      "title": "Сырная",
+      "composition": "Моцарелла, сыры чеддер и пармезан, соус альфредо",
+      "price": 245,
+      "media": "https://sun9-77.userapi.com/impg/3Q0lj_KsOmwzxut36PlygR97CPOZGJOEupBd2A/Llwwr6khT8Y.jpg?size=584x584&quality=96&sign=205edac7d10c3e948d1e86fd0fcb8970&type=album"
+    },
+    {
+      "title": "Пепперони фреш",
+      "composition": "Пикантная пепперони, увеличенная порция моцареллы, томаты, томатный соус",
+      "price": 245,
+      "media": "https://sun9-8.userapi.com/impg/r4PBnN4FuRUo4iHMmFIovAAcvj34mebZhF6olw/YZBUYLe_Mw4.jpg?size=584x584&quality=96&sign=d692a419863182583cc426c9f1b3f124&type=album"
+    },
+    {
+      "title": "Песто",
+      "composition": "Цыпленок, соус песто, кубики брынзы, томаты, моцарелла, соус альфредо",
+      "price": 425,
+      "media": "https://sun9-78.userapi.com/impg/Dh1NOtqyUiNEnyqYsN-7ULoURMVfm6J3Xov9bQ/4cZ3Hx21AzU.jpg?size=584x584&quality=96&sign=0df2f3f87622225af6e83b5df6b380be&type=album"
+    },
+    {
+      "title": "Ветчина и сыр",
+      "composition": "Цыпленок, соус песто, кубики брынзы, томаты, моцарелла, соус альфредо",
+      "price": 295,
+      "media": "https://sun9-40.userapi.com/impg/IGCSB6g5nc9XsvqfJ2MO2WFK_Newx4uJRrzKJg/vZwUY5oWReQ.jpg?size=584x584&quality=96&sign=cf687bf598225fbd10a7817bcf943c04&type=album"
+    },
+    {
+      "title": "Карбонара",
+      "composition": "Бекон, сыры чеддер и пармезан, моцарелла, томаты, красный лук, чеснок, соус альфредо, итальянские травы",
+      "price": 425,
+      "media": "https://sun9-83.userapi.com/impg/IbyMYmbqCEXHUC03aqD7j4n7_wQOf1wUVD61hg/hA61UZTL74g.jpg?size=584x584&quality=96&sign=510ba0d31029fddedc68b53bf1d19bcb&type=album"
+    },
+    {
+      "title": "Двойной цыпленок",
+      "composition": "Цыпленок, моцарелла, соус альфредо",
+      "price": 295,
+      "media": "https://sun9-64.userapi.com/impg/ceHfjnkaNIoPyECNKBBmY6bVZddxOdL9m5DO5w/LC4I--FvwwQ.jpg?size=584x584&quality=96&sign=310f8a042d927c8cf4ca09b621bf384e&type=album"
+    },
+    {
+      "title": "Додо Микс",
+      "composition": "Бекон, цыпленок, ветчина, сыр блю чиз, сыры чеддер и пармезан, соус песто, кубики брынзы, томаты, красный лук, моцарелла, соус альфредо, чеснок, итальянские травы",
+      "price": 465,
+      "media": "https://sun9-53.userapi.com/impg/bSQ0Fvcn6HM5nXav9oKYkT-S2I2X8YaQ4wSc0w/RUX9MsHCca0.jpg?size=584x584&quality=96&sign=d72a4f29338e8e56488700d98a98b059&type=album"
+    },
+    {
+      "title": "Пепперони",
+      "composition": "Пикантная пепперони, увеличенная порция моцареллы, томатный соус",
+      "price": 375,
+      "media": "https://sun9-85.userapi.com/impg/RG0Yxqj006snmYPEiLRkhNaNduBoWXreuvsxiQ/yN2vgcdNjsY.jpg?size=584x584&quality=96&sign=4fff252582287f2838b1a4122255782c&type=album"
+    },
+    {
+      "title": "Маргарита",
+      "composition": "Увеличенная порция моцареллы, томаты, итальянские травы, томатный соус",
+      "price": 325,
+      "media": "https://sun9-61.userapi.com/impg/xDghcmhedINL_G1ayQSfqlomrFy-2p4v2pH7Gw/zJaI-y6RBuQ.jpg?size=584x584&quality=96&sign=97aac11091034daab25c080168ae3766&type=album"
+    },
+    {
+      "title": "Ветчина и грибы",
+      "composition": "Ветчина, шампиньоны, увеличенная порция моцареллы, томатный соус",
+      "price": 325,
+      "media": "https://sun9-27.userapi.com/impg/l0l8eH8XJQUQyMbJbZrK8nRwMDqb_C6sBwsgWg/Cdsu9PaiXxQ.jpg?size=584x584&quality=96&sign=4c969bfe3c41d5e82a5d934eb792d189&type=album"
+    },
+    {
+      "title": "Гавайская",
+      "composition": "Ветчина, ананасы, моцарелла, томатный соус",
+      "price": 375,
+      "media": "https://sun9-28.userapi.com/impg/yl7-1PoNtXoAMdMmRSYKpPnMawgaV55OEd58aA/tMFxCrowxf0.jpg?size=584x584&quality=96&sign=0cae07a802835180fe0c007ef6208799&type=album"
+    }
+  ]
+}

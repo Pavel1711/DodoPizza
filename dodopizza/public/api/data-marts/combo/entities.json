@@ -1,0 +1,40 @@
+{
+  "count": 4,
+  "limit": 12,
+  "offset": 0,
+  "next": "/api/data-marts/combo/entities.json?offset=12&limit=12",
+  "previous": "",
+  "meta": {
+    "data_mart": {
+      "id": 1,
+      "name": "Комбо",
+      "slug": "combo"
+    }
+  },
+  "results": [
+    {
+      "title": "Комбо от 599 ₽",
+      "composition": "Пицца 25 см, Додстер, напиток и соус.",
+      "price": 599,
+      "media": "https://sun9-83.userapi.com/impg/GDPBja68g_GlTj29teFrY_RlnZwVK7nHY61BxQ/ZeVB06PSZv8.jpg?size=1158x1156&quality=96&sign=901e6365d87e576eeee72f4ab27f20e1&type=album"
+    },
+    {
+      "title": "2 пиццы",
+      "composition": "Самое популярное комбо из 2 пицц 30 см.",
+      "price": 969,
+      "media": "https://sun9-14.userapi.com/impg/rEPKJXy_X7qmI-WClCSEwNaJKHacbGQ96-gEpg/OJHXQcsUtF8.jpg?size=584x584&quality=96&sign=6f9bca58a2f0ba46412a8bc7ba655582&type=album"
+    },
+    {
+      "title": "3 пиццы от 999 ₽",
+      "composition": "3 пиццы 30 см по суперцене.",
+      "price": 999,
+      "media": "https://sun9-8.userapi.com/impg/r4PBnN4FuRUo4iHMmFIovAAcvj34mebZhF6olw/YZBUYLe_Mw4.jpg?size=584x584&quality=96&sign=d692a419863182583cc426c9f1b3f124&type=album"
+    },
+    {
+      "title": "2 пиццы и напиток",
+      "composition": "2 пиццы 25 см и напиток на выбор. Для компании из 2–4 человек.",
+      "price": 739,
+      "media": "https://sun9-78.userapi.com/impg/Dh1NOtqyUiNEnyqYsN-7ULoURMVfm6J3Xov9bQ/4cZ3Hx21AzU.jpg?size=584x584&quality=96&sign=0df2f3f87622225af6e83b5df6b380be&type=album"
+    }
+  ]
+}
