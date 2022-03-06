@@ -1,5 +1,7 @@
 import React, {FC} from 'react';
 import {IEntity} from '../types/types';
+import {useDispatch} from "react-redux";
+import {getEntity} from "../actions/entity";
 
 
 interface IEntityProps {
@@ -9,6 +11,8 @@ interface IEntityProps {
 const Entity: FC<IEntityProps> = props => {
   const {item} = props;
 
+  const dispatch = useDispatch()
+
   return (
     <div className="entity col-xl-3 col-md-4 d-flex flex-column justify-content-between mb-4">
       <div>
@@ -16,7 +20,10 @@ const Entity: FC<IEntityProps> = props => {
         <p className="title">{item.title}</p>
         <p className="composition">{item.composition}</p>
       </div>
-      <p className="price">{item.price} ₽</p>
+      <div className="d-flex justify-content-between align-items-center">
+        <span className="price">{item.price} ₽</span>
+        <button type="button" className="btn" onClick={() => dispatch(getEntity(item.id))}>Выбрать</button>
+      </div>
     </div>
   );
 };

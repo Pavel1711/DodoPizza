@@ -1,4 +1,6 @@
 @main-color-app: #FF6800;
+@main-color-darker-app: #DB5B01;
+@main-color-lighten-app: #FFD3B3;
 
 body {
   margin: 0;
@@ -43,12 +45,11 @@ header {
 
   #cart {
     background: @main-color-app;
-    color: #fff;
     border-radius: 25px;
     padding: 10px 30px;
 
     &:hover {
-      background: #E96000;
+      background: @main-color-darker-app;
     }
 
     &:focus {
@@ -75,5 +76,80 @@ header {
   .composition {
     font-size: 14px;
     color: #676d7a;
+  }
+
+  button {
+    background: rgb(255, 240, 230);
+    color: @main-color-darker-app;
+    border-radius: 25px;
+    padding: 10px 30px;
+
+    &:hover {
+      background: @main-color-lighten-app;
+      color: @main-color-darker-app;
+    }
+
+    &:focus {
+      box-shadow: none;
+    }
+  }
+}
+
+#modal {
+  width: 100vw;
+  height: 100vh;
+  z-index: 9999;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.5);
+  top: 0;
+
+  .modal-container {
+    height: 80%;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+
+    .btn-close {
+      position: absolute;
+      right: 10px;
+      top: 5px;
+      &:focus {
+        box-shadow: none;
+      }
+    }
+
+    &__entity-media {
+      img {
+        width: 300px;
+      }
+    }
+
+    &__entity-info {
+      padding: 0 20px;
+
+      p {
+        margin-top: 30px;
+        font-size: 24px;
+      }
+
+      .check-size-container {
+        border-radius: 20px;
+        background: #EDEDED;
+        padding: 5px 10px;
+
+        span {
+          font-size: 12px;
+          cursor: pointer;
+
+          &.active {
+            cursor: default;
+            background: #FFF;
+            border-radius: 20px;
+            padding: 5px 25px;
+            box-shadow: 1px 1px 5px 0 #A1A1A1;
+          }
+        }
+      }
+    }
   }
 }

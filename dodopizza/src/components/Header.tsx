@@ -1,5 +1,5 @@
 import React from 'react';
-import {APP_NAME} from "../constants/Config";
+import {APP_NAME} from "../constants/config";
 
 
 export default function Header(): JSX.Element {

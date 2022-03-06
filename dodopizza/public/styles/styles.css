@@ -30,12 +30,11 @@ header .star {
 }
 .navbar #cart {
   background: #FF6800;
-  color: #fff;
   border-radius: 25px;
   padding: 10px 30px;
 }
 .navbar #cart:hover {
-  background: #E96000;
+  background: #DB5B01;
 }
 .navbar #cart:focus {
   box-shadow: none;
@@ -54,4 +53,65 @@ header .star {
 .entity .composition {
   font-size: 14px;
   color: #676d7a;
+}
+.entity button {
+  background: #fff0e6;
+  color: #DB5B01;
+  border-radius: 25px;
+  padding: 10px 30px;
+}
+.entity button:hover {
+  background: #FFD3B3;
+  color: #DB5B01;
+}
+.entity button:focus {
+  box-shadow: none;
+}
+#modal {
+  width: 100vw;
+  height: 100vh;
+  z-index: 9999;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.5);
+  top: 0;
+}
+#modal .modal-container {
+  height: 80%;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+}
+#modal .modal-container .btn-close {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+}
+#modal .modal-container .btn-close:focus {
+  box-shadow: none;
+}
+#modal .modal-container__entity-media img {
+  width: 300px;
+}
+#modal .modal-container__entity-info {
+  padding: 0 20px;
+}
+#modal .modal-container__entity-info p {
+  margin-top: 30px;
+  font-size: 24px;
+}
+#modal .modal-container__entity-info .check-size-container {
+  border-radius: 20px;
+  background: #EDEDED;
+  padding: 5px 10px;
+}
+#modal .modal-container__entity-info .check-size-container span {
+  font-size: 12px;
+  cursor: pointer;
+}
+#modal .modal-container__entity-info .check-size-container span.active {
+  cursor: default;
+  background: #FFF;
+  border-radius: 20px;
+  padding: 5px 25px;
+  box-shadow: 1px 1px 5px 0 #A1A1A1;
 }

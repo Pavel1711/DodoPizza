@@ -2,6 +2,7 @@ import React from 'react';
 import Navigation from "./components/Navigation";
 import Header from "./components/Header";
 import DataMart from "./components/DataMart";
+import Modal from "./components/Modal";
 
 
 export default function App(): JSX.Element {
@@ -15,6 +16,7 @@ export default function App(): JSX.Element {
         <DataMart slug="snacks"/>
         <DataMart slug="desserts"/>
         <DataMart slug="drinks"/>
+        <Modal/>
       </div>
     </div>
   );
