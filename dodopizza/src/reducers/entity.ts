@@ -7,6 +7,7 @@ const initialState:IState = {
   title: '',
   composition: '',
   price: null,
+  size: [],
   media: ''
 }
 
@@ -17,6 +18,9 @@ export const entity = (state = initialState, action: EntityAction): IState => {
 
     case EntityActionType.CLEAR_ENTITY:
       return initialState;
+
+    case EntityActionType.CHANGE_SIZE:
+      return {...state, price: action.price};
 
     default:
       return state;

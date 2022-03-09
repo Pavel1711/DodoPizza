@@ -18,3 +18,7 @@ export const getEntity = (entityId: number, model: string) => async (dispatch: D
 export const clearEntity = () => (dispatch: Dispatch<EntityAction>) => {
   dispatch({type: EntityActionType.CLEAR_ENTITY})
 }
+
+export const changeSize = (price: number) => (dispatch: Dispatch<EntityAction>) => {
+  dispatch({type: EntityActionType.CHANGE_SIZE, price})
+}

@@ -2,23 +2,27 @@ import React, {useEffect, useState} from 'react';
 import {createPortal} from 'react-dom';
 import {useTypedSelector} from "../hooks/useTypedSelector";
 import {useDispatch} from "react-redux";
-import {clearEntity} from "../actions/entity";
+import {clearEntity, changeSize} from "../actions/entity";
 import {RUB_SYMBOL} from "../constants/config";
 
 
 const Modal = () => {
-  const [visibleModal, setVisibleModal] = useState(false);
-  const {id, title, composition, price, media} = useTypedSelector(state => state.entity)
+  const [visibleModal, setVisibleModal] = useState<boolean>(false);
+  const {id, title, composition, size, price, media} = useTypedSelector(state => state.entity)
 
   const dispatch = useDispatch()
 
   useEffect(() => {
-    setVisibleModal(!!id);
+    setVisibleModal(!!id && !!size?.length);
   }, [id]);
 
   const closeModal = () => {
     setVisibleModal(false);
     dispatch(clearEntity())
+  }
+
+  const changeSizeEntity = (newPrice: number) => {
+    dispatch(changeSize(newPrice))
   }
 
   return createPortal(
@@ -35,9 +39,10 @@ const Modal = () => {
               <p>{title}</p>
               <p className="composition">{composition}</p>
               <div className="check-size-container d-flex justify-content-around align-items-center">
-                <span>Маленькая</span>
-                <span className="active">Средняя</span>
-                <span>Большая</span>
+                {size?.map((item, key) => (
+                  <span key={key} className={item.price === price ? "active" : ""}
+                        onClick={() => changeSizeEntity(item.price)}>{item.name}</span>
+                ))}
               </div>
             </div>
             <button type="button" className="btn text-white w-100 mt-4 mb-4" id="add-to-cart-modal">

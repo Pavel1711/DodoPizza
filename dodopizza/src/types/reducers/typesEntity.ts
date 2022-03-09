@@ -5,6 +5,10 @@ export interface IState {
   title: string
   composition: string
   price: number | null
+  size?: Array<{
+    name: string,
+    price: number
+  }>
   media: string
 }
 
@@ -17,4 +21,9 @@ interface CLEAR_ENTITY_ACTION {
   type: EntityActionType.CLEAR_ENTITY
 }
 
-export type EntityAction = GET_ENTITY_ACTION | CLEAR_ENTITY_ACTION
+interface CHANGE_SIZE_ACTION {
+  type: EntityActionType.CHANGE_SIZE,
+  price: number
+}
+
+export type EntityAction = GET_ENTITY_ACTION | CLEAR_ENTITY_ACTION | CHANGE_SIZE_ACTION
