@@ -15,6 +15,9 @@ export const entity = (state = initialState, action: EntityAction): IState => {
     case EntityActionType.GET_ENTITY:
       return {...action.data};
 
+    case EntityActionType.CLEAR_ENTITY:
+      return initialState;
+
     default:
       return state;
   }

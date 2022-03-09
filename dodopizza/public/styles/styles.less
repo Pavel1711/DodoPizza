@@ -42,19 +42,20 @@ header {
       color: @main-color-app;
     }
   }
+}
 
-  #cart {
-    background: @main-color-app;
-    border-radius: 25px;
-    padding: 10px 30px;
+#add-to-cart,
+#add-to-cart-modal {
+  background: @main-color-app;
+  border-radius: 25px;
+  padding: 10px 30px;
 
-    &:hover {
-      background: @main-color-darker-app;
-    }
+  &:hover {
+    background: @main-color-darker-app;
+  }
 
-    &:focus {
-      box-shadow: none;
-    }
+  &:focus {
+    box-shadow: none;
   }
 }
 
@@ -130,6 +131,11 @@ header {
       p {
         margin-top: 30px;
         font-size: 24px;
+
+        &.composition {
+          margin-top: 0;
+          font-size: 14px;
+        }
       }
 
       .check-size-container {

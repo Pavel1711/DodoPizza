@@ -28,15 +28,18 @@ header .star {
 .navbar .nav-link:hover {
   color: #FF6800;
 }
-.navbar #cart {
+#add-to-cart,
+#add-to-cart-modal {
   background: #FF6800;
   border-radius: 25px;
   padding: 10px 30px;
 }
-.navbar #cart:hover {
+#add-to-cart:hover,
+#add-to-cart-modal:hover {
   background: #DB5B01;
 }
-.navbar #cart:focus {
+#add-to-cart:focus,
+#add-to-cart-modal:focus {
   box-shadow: none;
 }
 .entity img {
@@ -98,6 +101,10 @@ header .star {
 #modal .modal-container__entity-info p {
   margin-top: 30px;
   font-size: 24px;
+}
+#modal .modal-container__entity-info p.composition {
+  margin-top: 0;
+  font-size: 14px;
 }
 #modal .modal-container__entity-info .check-size-container {
   border-radius: 20px;

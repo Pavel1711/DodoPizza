@@ -13,4 +13,8 @@ interface GET_ENTITY_ACTION {
   data: IState
 }
 
-export type EntityAction = GET_ENTITY_ACTION
+interface CLEAR_ENTITY_ACTION {
+  type: EntityActionType.CLEAR_ENTITY
+}
+
+export type EntityAction = GET_ENTITY_ACTION | CLEAR_ENTITY_ACTION

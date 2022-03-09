@@ -5,12 +5,12 @@ import {getEntity} from "../actions/entity";
 
 
 interface IEntityProps {
-  item: IEntity
+  item: IEntity,
+  model: string
 }
 
 const Entity: FC<IEntityProps> = props => {
-  const {item} = props;
-
+  const {item, model} = props;
   const dispatch = useDispatch()
 
   return (
@@ -22,7 +22,7 @@ const Entity: FC<IEntityProps> = props => {
       </div>
       <div className="d-flex justify-content-between align-items-center">
         <span className="price">{item.price} ₽</span>
-        <button type="button" className="btn" onClick={() => dispatch(getEntity(item.id))}>Выбрать</button>
+        <button type="button" className="btn" onClick={() => dispatch(getEntity(item.id, model))}>Выбрать</button>
       </div>
     </div>
   );
