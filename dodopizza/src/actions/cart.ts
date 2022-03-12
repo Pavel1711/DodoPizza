@@ -10,3 +10,7 @@ export const changeVisibilityCart = (visibility: boolean) => (dispatch:Dispatch 
 export const addToCart = (data: IEntityInCart, cartHasEntity: boolean) => (dispatch: Dispatch<CartAction>) => {
   dispatch({type: CartActionType.ADD_TO_CART, data, cartHasEntity})
 }
+
+export const removeFromCart = (data: IEntityInCart) => (dispatch: Dispatch<CartAction>) => {
+  dispatch({type: CartActionType.REMOVE_FROM_CART, data})
+}

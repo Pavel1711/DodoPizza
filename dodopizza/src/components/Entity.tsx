@@ -4,6 +4,7 @@ import {useDispatch} from "react-redux";
 import {getEntity} from "../actions/entity";
 import {RUB_SYMBOL} from "../constants/config";
 import {addToCart as addToCartAction} from "../actions/cart";
+import {useTypedSelector} from "../hooks/useTypedSelector";
 
 
 interface IEntityProps {
@@ -14,14 +15,27 @@ interface IEntityProps {
 const Entity: FC<IEntityProps> = props => {
   const {item, model} = props;
   const {id, title, media, price} = item;
+  const cart = useTypedSelector(state => state.cart);
   const dispatch = useDispatch();
 
   const handleClick = () => {
     if (item.size?.length > 1)
       dispatch(getEntity(item.id, model))
     else {
-      const data = {id, title, media, totalPrice: price, count: 1};
-      dispatch(addToCartAction(data, false));
+      let cartHasEntity: boolean = false;
+      let count: number = 1;
+      let totalPrice: number = price;
+
+      for (let item of cart.data) {
+        if (item.title === title) {
+          count += item.count;
+          totalPrice += item.totalPrice;
+          cartHasEntity = true;
+        }
+      }
+
+      const data = {id, title, media, totalPrice, count};
+      dispatch(addToCartAction(data, cartHasEntity));
     }
   }
 

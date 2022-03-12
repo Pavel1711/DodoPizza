@@ -130,7 +130,7 @@ header .star {
   box-shadow: 1px 1px 5px 0 #A1A1A1;
 }
 #modalCart .modal-container {
-  background: #F8F9FA;
+  background: #f2f4f6;
 }
 #modalCart .modal-container .total-sum {
   margin: 20px 10px;
@@ -155,4 +155,14 @@ header .star {
 #modalCart .modal-container .entities .entity .size-text {
   font-size: 12px;
   color: #AEAEAE;
+}
+#modalCart .modal-container .entities .entity #calculator {
+  width: 80px;
+  background: #f2f4f6;
+  border-radius: 15px;
+  padding: 3px;
+}
+#modalCart .modal-container .entities .entity #calculator .minus,
+#modalCart .modal-container .entities .entity #calculator .plus {
+  cursor: pointer;
 }

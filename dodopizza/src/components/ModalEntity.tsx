@@ -43,7 +43,7 @@ const ModalEntity: FC = () => {
 
     for (let item of cart.data) {
       if (!!size?.length && item.title === title && item.sizeText === sizeText) {
-        count = item.count + 1;
+        count += item.count;
         totalPrice += item.totalPrice;
         cartHasEntity = true;
         break;

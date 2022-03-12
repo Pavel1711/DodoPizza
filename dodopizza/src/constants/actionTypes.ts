@@ -6,5 +6,6 @@ export enum EntityActionType {
 
 export enum CartActionType {
   CHANGE_VISIBILITY_CART = 'CHANGE_VISIBILITY_CART',
-  ADD_TO_CART = 'ADD_TO_CART'
+  ADD_TO_CART = 'ADD_TO_CART',
+  REMOVE_FROM_CART = 'REMOVE_FROM_CART'
 }

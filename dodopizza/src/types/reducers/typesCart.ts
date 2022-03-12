@@ -25,4 +25,9 @@ interface ADD_TO_CART {
   cartHasEntity: boolean
 }
 
-export type CartAction = CHANGE_VISIBILITY_CART_ACTION | ADD_TO_CART
+interface REMOVE_FROM_CART {
+  type: CartActionType.REMOVE_FROM_CART,
+  data: IEntityInCart
+}
+
+export type CartAction = CHANGE_VISIBILITY_CART_ACTION | ADD_TO_CART | REMOVE_FROM_CART
