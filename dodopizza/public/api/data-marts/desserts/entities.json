@@ -17,56 +17,56 @@
       "title": "Шоколадный молочный коктейль",
       "composition": "Это шок! Шоколадный молочный коктейль со сливочным мороженым и фирменным какао",
       "price": 159,
-      "media": "https://sun9-13.userapi.com/impg/f9e8IXnnhh8IC6UhLcG3LeB026sn2o5OqgWW8g/_BB8y-UYPVA.jpg?size=584x584&quality=96&sign=25eae8f53a9f746ebf5e12b4eaf3b330&type=album"
+      "media": "/images/desserts/1.jpeg"
     },
     {
       "id": 6,
       "title": "Молочный коктейль с печеньем Орео",
       "composition": "Как вкуснее есть печенье? Его лучше пить! Попробуйте молочный коктейль с мороженым и дробленым печеньем «Орео»",
       "price": 179,
-      "media": "https://sun9-1.userapi.com/impg/Z_GP3xqgR4RZJtAZYxQYjhU8Vthvmbhh3DpNDA/lwn-ovk6eOY.jpg?size=584x584&quality=96&sign=5bd47695fd90daf5bff71b57594fcf82&type=album"
+      "media": "/images/desserts/2.jpeg"
     },
     {
       "id": 7,
       "title": "Классический молочный коктейль \uD83D\uDC76",
       "composition": "В мире так много коктейлей, но классика — вечна. Попробуйте наш молочный напиток с мороженым",
       "price": 159,
-      "media": "https://sun9-32.userapi.com/impg/u_daWpXyWfy_o57BAp0Gd6NWNbhTDtPKrMmdyA/Bqt2_xXhggo.jpg?size=584x584&quality=96&sign=69410f61a00f89de9a39a070e44bec74&type=album"
+      "media": "/images/desserts/3.jpeg"
     },
     {
       "id": 8,
       "title": "Клубничный молочный коктейль \uD83D\uDC76",
       "composition": "Не важно, какое время года на улице, этот коктейль с клубничным сиропом вернет вас в лето с одного глотка",
       "price": 159,
-      "media": "https://sun9-25.userapi.com/impg/WwOb7d5uzY3KJLJezoVIb_SBn5_U4bFv-Z79Hw/FP0Ex3S0UAE.jpg?size=584x584&quality=96&sign=1e2b2ddf82704c7c25e7ff2cf674be36&type=album"
+      "media": "/images/desserts/4.jpeg"
     },
     {
       "id": 9,
       "title": "Вишневый пирог",
       "composition": "Это не просто десерт, а вишенка на торте! Творожно-песочное тесто с ягодами, заварным кремом и лепестками миндаля.",
       "price": 139,
-      "media": "https://sun9-20.userapi.com/impg/juhweBxoI7-okeH4yDIngBcS_-Uy1dRDEtixuQ/xJtjZf7MOhU.jpg?size=584x584&quality=96&sign=2ba432c3e81ff53313f42a061281ce63&type=album"
+      "media": "/images/desserts/5.jpeg"
     },
     {
       "id": 10,
       "title": "Чизкейк Нью-Йорк",
       "composition": "Мы перепробовали тысячу десертов и наконец нашли любимца гостей — нежнейший творожный чизкейк.",
       "price": 139,
-      "media": "https://sun9-36.userapi.com/impg/1LSvspB-ANvkmJ_6u9fFL29Hf63dCoIa6bTlxA/n3kWXwWLhDk.jpg?size=584x584&quality=96&sign=3551cbd4a00014d5745aeda4939d9ac2&type=album"
+      "media": "/images/desserts/6.jpeg"
     },
     {
       "id": 11,
       "title": "Пончики Тройной шоколад и Клубничный",
       "composition": "Такие разные, но вместе. Один пончик с шоколадной начинкой и посыпкой, а другой с клубничной начинкой внутри и яркой посыпкой снаружи",
       "price": 199,
-      "media": "https://sun9-29.userapi.com/impg/QChbc60ikwyUy4905kicMHPXlvh-uWM0lZ9ncA/LAo3KVpjjW4.jpg?size=584x584&quality=96&sign=eb3feaba08e22497b070be6cb2188aeb&type=album"
+      "media": "/images/desserts/7.jpeg"
     },
     {
       "id": 12,
       "title": "2 Клубничных пончика",
       "composition": "Самый яркий дуэт. Два пончика с клубничной начинкой и разноцветной посыпкой",
       "price": 199,
-      "media": "https://sun9-55.userapi.com/impg/-PgAJY7jomm87sVLmiMeSQW2HE3nchuUklaQlA/lQMmfBVKCUE.jpg?size=584x584&quality=96&sign=5a69f4795b8a69d05ab0c80dab13ce39&type=album"
+      "media": "/images/desserts/8.jpeg"
     }
   ]
 }

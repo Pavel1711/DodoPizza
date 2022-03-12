@@ -17,56 +17,56 @@
       "title": "Додстер",
       "composition": "Легендарная горячая закуска с цыпленком, томатами, моцареллой, соусом ранч в тонкой пшеничной лепешке",
       "price": 159,
-      "media": "https://sun9-36.userapi.com/impg/EQuOzX00vR97GDT41Jd-w0qcSTbeM7TBo9toTw/fogY16q_AtE.jpg?size=584x584&quality=96&sign=623ced156726b3a3157af80d7c462418&type=album"
+      "media": "/images/snacks/1.jpeg"
     },
     {
       "id": 34,
       "title": "Острый Додстер \uD83C\uDF36️\uD83C\uDF36️",
       "composition": "Горячая закуска с цыпленком, перчиком халапеньо, солеными огурчиками, томатами, моцареллой и соусом барбекю в тонкой пшеничной лепешке",
       "price": 159,
-      "media": "https://sun9-13.userapi.com/impg/JOWIST9trVzSjrUire7CXcVGwdc1i926Uf0Bhw/rGpnB-SXCHE.jpg?size=584x584&quality=96&sign=b780b89748e6559b5473186fc99a3cf8&type=album"
+      "media": "/images/snacks/2.jpeg"
     },
     {
       "id": 35,
       "title": "Сырный Стартер",
       "composition": "Горячая закуска с очень сырной начинкой. Моцарелла, пармезан, чеддер и соус ранч в тонкой пшеничной лепешке",
       "price": 159,
-      "media": "https://sun9-29.userapi.com/impg/EfBL-cfZ3FYcwWalQ1Z0w2W2_s5kSoS_mq7Ldw/TTAbeJUrJ2k.jpg?size=584x584&quality=96&sign=2cbef23afab736bba4ab542f2985c270&type=album"
+      "media": "/images/snacks/3.jpeg"
     },
     {
       "id": 36,
       "title": "Грибной Стартер \uD83C\uDF31",
       "composition": "Горячая закуска с шампиньонами, моцареллой и соусом ранч в тонкой пшеничной лепешке",
       "price": 159,
-      "media": "https://sun9-29.userapi.com/impg/7-hqdlUh8uueGOAnB7Odw2Xjv-aadWT9DCM_hw/O9KpmFjfd7I.jpg?size=584x584&quality=96&sign=e63013d61b18d47a6bacdba90758da8c&type=album"
+      "media": "/images/snacks/4.jpeg"
     },
     {
       "id": 37,
       "title": "Мясной Стартер \uD83C\uDF36️",
       "composition": "Горячая закуска с митболами, томатами, моцареллой и пикантным соусом бургер в тонкой пшеничной лепешке",
       "price": 159,
-      "media": "https://sun9-42.userapi.com/impg/zFF5oNNZlSOBxG6LMtYb-TSxNwJ9L-4NAy5cIQ/-MAqwfcBAEU.jpg?size=584x584&quality=96&sign=06b8008ae3714f5dbba24b4b8e584a2a&type=album"
+      "media": "/images/snacks/5.jpeg"
     },
     {
       "id": 38,
       "title": "Острый Стартер \uD83C\uDF36️\uD83C\uDF36️",
       "composition": "Горячая закуска с острыми колбасками чоризо, цыпленком, перчиком халапеньо, моцареллой и соусом барбекю в тонкой пшеничной лепешке",
       "price": 159,
-      "media": "https://sun9-85.userapi.com/impg/yMumBBSlnQGmrKPijCpDf-7nmrzTv8-R4sVfJw/fUrSAEenlwA.jpg?size=584x584&quality=96&sign=96901395ef041a963696fdf30007ca8e&type=album"
+      "media": "/images/snacks/6.jpeg"
     },
     {
       "id": 39,
       "title": "Ланчбокс с куриными крыльями",
       "composition": "Горячий сытный обед из куриных крылышек со специями и ароматом копчения, картофеля из печи с итальянскими травами и соуса барбекю",
       "price": 299,
-      "media": "https://sun9-32.userapi.com/impg/WVHlEU_ZcWKLwDjh_IrzPL-dAtxafi9rWCcMDw/_-bLmiJMWOc.jpg?size=584x584&quality=96&sign=f1625a47821e023c5b6df452c7cda980&type=album"
+      "media": "/images/snacks/7.jpeg"
     },
     {
       "id": 40,
       "title": "Ланчбокс с куриными кусочками",
       "composition": "Горячий сытный обед из нежных куриных кусочков, картофеля из печи с итальянскими травами и сырного соуса",
       "price": 299,
-      "media": "https://sun9-44.userapi.com/impg/DFA4xXtNXED0MVeegKr_Dw2wpzm2xqQLW2a7aA/ACb_5r4KOZs.jpg?size=584x584&quality=96&sign=a34d63a33dfe2bf92a0039397bd5b3b7&type=album"
+      "media": "/images/snacks/8.jpeg"
     }
   ]
 }

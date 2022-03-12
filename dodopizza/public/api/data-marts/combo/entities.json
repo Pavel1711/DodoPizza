@@ -17,29 +17,28 @@
       "title": "Комбо от 599 ₽",
       "composition": "Пицца 25 см, Додстер, напиток и соус.",
       "price": 599,
-      "media": "https://sun9-30.userapi.com/impg/Ak4u9OeVUnPt8k0xdG_b_U6ZpJYCkBm73drRyQ/-CmuwcXiKto.jpg?size=1152x1150&quality=96&sign=796208d546993ca15a4e049f7ee1a2e6&type=album"
+      "media": "/images/combo/1.jpeg"
     },
     {
       "id": 2,
       "title": "2 пиццы и напиток",
       "composition": "2 пиццы 25 см и напиток на выбор. Для компании из 2–4 человек.",
       "price": 739,
-      "media": "https://sun9-48.userapi.com/impg/mSEOEkyemVnGA7L-c59DW71ooTp_qXL5cLSoaw/4kJogcL6AIE.jpg?size=1160x1154&quality=96&sign=72a94d2b30a585d192bc35b20342f42b&type=album"
+      "media": "/images/combo/2.jpeg"
     },
-
     {
       "id": 3,
       "title": "3 пиццы от 999 ₽",
       "composition": "3 пиццы 30 см по суперцене.",
       "price": 999,
-      "media": "https://sun9-14.userapi.com/impg/xyNIGcZk85K95GfbFxOjo4t-itNtr3RXeAxgrw/Pil9fIJJdFQ.jpg?size=1156x1148&quality=96&sign=5b6d0c3af21f70599b621df03235d44d&type=album"
+      "media": "/images/combo/3.jpeg"
     },
     {
       "id": 4,
       "title": "5 пицц",
       "composition": "5 пицц 30 см на любой вкус. Для компании из 10–15 человек.",
       "price": 2219,
-      "media": "https://sun9-27.userapi.com/impg/yhLOBty45lCH86RBoLf5HT8DkzaYSOmBX338tQ/4ovAED80HG4.jpg?size=1160x1150&quality=96&sign=0541dbb66ea2a5992d26531d7bc0c72a&type=album"
+      "media": "/images/combo/4.jpeg"
     }
   ]
 }
