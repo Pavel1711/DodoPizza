@@ -6,12 +6,12 @@ export interface IStateEntityInCart {
 }
 
 export interface IEntityInCart {
-  id: number | null
+  id: number | null,
   title: string,
-  sizeText?: string,
-  price: number,
+  totalPrice: number,
   media: string,
-  count?: number
+  count: number,
+  sizeText?: string
 }
 
 interface CHANGE_VISIBILITY_CART_ACTION {
@@ -21,7 +21,8 @@ interface CHANGE_VISIBILITY_CART_ACTION {
 
 interface ADD_TO_CART {
   type: CartActionType.ADD_TO_CART,
-  data: IEntityInCart
+  data: IEntityInCart,
+  cartHasEntity: boolean
 }
 
 export type CartAction = CHANGE_VISIBILITY_CART_ACTION | ADD_TO_CART

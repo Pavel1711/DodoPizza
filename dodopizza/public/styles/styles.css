@@ -96,6 +96,9 @@ header .star {
 #modalEntity .modal-container .btn-close:focus {
   box-shadow: none;
 }
+#modalEntity .modal-container {
+  overflow-y: scroll;
+}
 #modalEntity .modal-container__entity-media img {
   width: 300px;
 }
@@ -138,7 +141,7 @@ header .star {
   padding-bottom: 50px;
 }
 #modalCart .modal-container .entities .entity {
-  margin: 20px 0;
+  margin-bottom: 20px;
 }
 #modalCart .modal-container .entities .entity img {
   width: 80px;

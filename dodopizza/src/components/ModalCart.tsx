@@ -11,18 +11,22 @@ const ModalCart: FC = () => {
   const {data} = useTypedSelector(state => state.cart);
   const dispatch = useDispatch();
 
+  let totalCount = 0;
   let totalSum = 0;
-  data.map(item => totalSum += item.price * (item.count || 1))
+  for (let item of data) {
+    totalCount += item.count;
+    totalSum += item.totalPrice;
+  }
 
   return createPortal(
     <div id="modalCart"
          className={`row d-flex justify-content-center align-items-center ${visibility ? 'd-block' : 'd-none'}`}>
       <div className="col-xl-4 col-md-10 col-sm-10 modal-container p-0">
-        <p className="total-sum px-3">{data.length} товар на сумму {totalSum} {RUB_SYMBOL}</p>
+        <p className="total-sum px-3">{totalCount} товар на сумму {totalSum} {RUB_SYMBOL}</p>
         <button type="button" className="btn-close" onClick={() => dispatch(changeVisibilityCart(false))}/>
         <div className="h-100 entities">
           {data.map(entity => (
-            <div className="entity d-flex flex-column bg-white p-3">
+            <div className="entity d-flex flex-column bg-white p-3" key={`${entity.title}__${entity.sizeText}`}>
               <div className="d-flex">
                 <img src={entity.media} alt={entity.title}/>
                 <div className="d-flex flex-column justify-content-center">
@@ -31,7 +35,7 @@ const ModalCart: FC = () => {
                 </div>
               </div>
               <hr/>
-              <span>{entity.price} {RUB_SYMBOL}</span>
+              <span>{entity.totalPrice} {RUB_SYMBOL}</span>
             </div>
           ))}
         </div>

@@ -6,7 +6,7 @@ const initialState:IState = {
   id: null,
   title: '',
   composition: '',
-  price: null,
+  price: 0,
   size: [],
   media: ''
 }

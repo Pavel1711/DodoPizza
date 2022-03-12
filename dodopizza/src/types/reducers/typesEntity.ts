@@ -4,7 +4,7 @@ export interface IState {
   id: number | null
   title: string
   composition: string
-  price: number | null
+  price: number
   size?: Array<{
     name: string,
     price: number
