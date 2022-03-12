@@ -42,35 +42,36 @@ header .star {
 #add-to-cart-modal:focus {
   box-shadow: none;
 }
-.entity img {
+.data-mart .entity img {
   transition: 0.5s;
 }
-.entity img:hover {
+.data-mart .entity img:hover {
   transform: scale(1.1);
 }
-.entity .title,
-.entity .price {
+.data-mart .entity .title,
+.data-mart .entity .price {
   font-weight: 500;
   font-size: 20px;
 }
-.entity .composition {
+.data-mart .entity .composition {
   font-size: 14px;
   color: #676d7a;
 }
-.entity button {
+.data-mart .entity button {
   background: #fff0e6;
   color: #DB5B01;
   border-radius: 25px;
   padding: 10px 30px;
 }
-.entity button:hover {
+.data-mart .entity button:hover {
   background: #FFD3B3;
   color: #DB5B01;
 }
-.entity button:focus {
+.data-mart .entity button:focus {
   box-shadow: none;
 }
-#modal {
+#modalCart,
+#modalEntity {
   width: 100vw;
   height: 100vh;
   z-index: 9999;
@@ -78,47 +79,77 @@ header .star {
   background: rgba(0, 0, 0, 0.5);
   top: 0;
 }
-#modal .modal-container {
+#modalCart .modal-container,
+#modalEntity .modal-container {
   height: 80%;
   border-radius: 20px;
   overflow: hidden;
   position: relative;
 }
-#modal .modal-container .btn-close {
+#modalCart .modal-container .btn-close,
+#modalEntity .modal-container .btn-close {
   position: absolute;
-  right: 10px;
-  top: 5px;
+  right: 20px;
+  top: 20px;
 }
-#modal .modal-container .btn-close:focus {
+#modalCart .modal-container .btn-close:focus,
+#modalEntity .modal-container .btn-close:focus {
   box-shadow: none;
 }
-#modal .modal-container__entity-media img {
+#modalEntity .modal-container__entity-media img {
   width: 300px;
 }
-#modal .modal-container__entity-info {
+#modalEntity .modal-container__entity-info {
   padding: 0 20px;
 }
-#modal .modal-container__entity-info p {
+#modalEntity .modal-container__entity-info p {
   margin-top: 30px;
   font-size: 24px;
 }
-#modal .modal-container__entity-info p.composition {
+#modalEntity .modal-container__entity-info p.composition {
   margin-top: 0;
   font-size: 14px;
 }
-#modal .modal-container__entity-info .check-size-container {
+#modalEntity .modal-container__entity-info .check-size-container {
   border-radius: 20px;
   background: #EDEDED;
   padding: 5px 10px;
 }
-#modal .modal-container__entity-info .check-size-container span {
+#modalEntity .modal-container__entity-info .check-size-container span {
   font-size: 12px;
   cursor: pointer;
   border-radius: 20px;
   padding: 5px 25px;
 }
-#modal .modal-container__entity-info .check-size-container span.active {
+#modalEntity .modal-container__entity-info .check-size-container span.active {
   cursor: default;
   background: #FFF;
   box-shadow: 1px 1px 5px 0 #A1A1A1;
+}
+#modalCart .modal-container {
+  background: #F8F9FA;
+}
+#modalCart .modal-container .total-sum {
+  margin: 20px 10px;
+  font-size: 20px;
+}
+#modalCart .modal-container .entities {
+  overflow-y: scroll;
+  padding-bottom: 50px;
+}
+#modalCart .modal-container .entities .entity {
+  margin: 20px 0;
+}
+#modalCart .modal-container .entities .entity img {
+  width: 80px;
+  height: 80px;
+  margin-right: 20px;
+}
+#modalCart .modal-container .entities .entity .title {
+  font-weight: 500;
+  font-size: 18px;
+}
+#modalCart .modal-container .entities .entity .size-text {
+  font-size: 12px;
+  color: #AEAEAE;
 }

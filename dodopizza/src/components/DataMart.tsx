@@ -22,7 +22,7 @@ const DataMart: FC<IDataMartProps> = props => {
   }, []);
 
   return (
-    <div id={slug} className="row mb-5">
+    <div id={slug} className="row mb-5 data-mart">
       <h2 className="mb-4">{dmName}</h2>
       {data.map(item => <Entity item={item} key={item.id} model={slug}/>)}
     </div>

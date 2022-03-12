@@ -1,12 +1,13 @@
-import React, {useEffect, useState} from 'react';
+import React, {FC, useEffect, useState} from 'react';
 import {createPortal} from 'react-dom';
 import {useTypedSelector} from "../hooks/useTypedSelector";
 import {useDispatch} from "react-redux";
 import {clearEntity, changeSize} from "../actions/entity";
+import {addToCart as addToCartAction} from "../actions/cart";
 import {RUB_SYMBOL} from "../constants/config";
 
 
-const Modal = () => {
+const ModalEntity: FC = () => {
   const [visibleModal, setVisibleModal] = useState<boolean>(false);
   const {id, title, composition, size, price, media} = useTypedSelector(state => state.entity)
 
@@ -25,10 +26,29 @@ const Modal = () => {
     dispatch(changeSize(newPrice))
   }
 
+  const addToCart = () => {
+    if (size) {
+      for (let item of size) {
+        if (item.price === price) {
+          const data = {
+            id,
+            title,
+            media,
+            price,
+            sizeText: item.name
+          }
+          dispatch(addToCartAction(data));
+          closeModal();
+          break;
+        }
+      }
+    }
+  }
+
   return createPortal(
-    <div id="modal"
+    <div id="modalEntity"
          className={`row d-flex justify-content-center align-items-center ${visibleModal ? 'd-block' : 'd-none'}`}>
-      <div className="col-xl-7 bg-white modal-container">
+      <div className="col-xl-8 col-md-10 col-sm-10 bg-white modal-container">
         <button type="button" className="btn-close" onClick={closeModal}/>
         <div className="row h-100">
           <div className="col-xl-7 d-flex justify-content-center align-items-center modal-container__entity-media">
@@ -45,7 +65,8 @@ const Modal = () => {
                 ))}
               </div>
             </div>
-            <button type="button" className="btn text-white w-100 mt-4 mb-4" id="add-to-cart-modal">
+            <button type="button" className="btn text-white w-100 mt-4 mb-4" id="add-to-cart-modal"
+                    onClick={addToCart}>
               {`Добавить в корзину за ${price} ${RUB_SYMBOL}`}
             </button>
           </div>
@@ -55,4 +76,4 @@ const Modal = () => {
   )
 };
 
-export default Modal;
+export default ModalEntity;

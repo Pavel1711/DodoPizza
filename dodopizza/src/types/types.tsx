@@ -3,5 +3,9 @@ export interface IEntity {
   title: string,
   composition: string,
   price: number,
+  size: Array<{
+    name: string,
+    price: number
+  }>,
   media: string
 }

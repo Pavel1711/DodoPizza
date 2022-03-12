@@ -3,3 +3,8 @@ export enum EntityActionType {
   CLEAR_ENTITY = 'CLEAR_ENTITY',
   CHANGE_SIZE = 'CHANGE_SIZE'
 }
+
+export enum CartActionType {
+  CHANGE_VISIBILITY_CART = 'CHANGE_VISIBILITY_CART',
+  ADD_TO_CART = 'ADD_TO_CART'
+}

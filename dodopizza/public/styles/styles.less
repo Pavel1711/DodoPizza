@@ -59,44 +59,47 @@ header {
   }
 }
 
-.entity {
-  img {
-    transition: 0.5s;
+.data-mart {
+  .entity {
+    img {
+      transition: 0.5s;
 
-    &:hover {
-      transform: scale(1.1);
+      &:hover {
+        transform: scale(1.1);
+      }
     }
-  }
 
-  .title,
-  .price {
-    font-weight: 500;
-    font-size: 20px;
-  }
+    .title,
+    .price {
+      font-weight: 500;
+      font-size: 20px;
+    }
 
-  .composition {
-    font-size: 14px;
-    color: #676d7a;
-  }
+    .composition {
+      font-size: 14px;
+      color: #676d7a;
+    }
 
-  button {
-    background: rgb(255, 240, 230);
-    color: @main-color-darker-app;
-    border-radius: 25px;
-    padding: 10px 30px;
-
-    &:hover {
-      background: @main-color-lighten-app;
+    button {
+      background: rgb(255, 240, 230);
       color: @main-color-darker-app;
-    }
+      border-radius: 25px;
+      padding: 10px 30px;
 
-    &:focus {
-      box-shadow: none;
+      &:hover {
+        background: @main-color-lighten-app;
+        color: @main-color-darker-app;
+      }
+
+      &:focus {
+        box-shadow: none;
+      }
     }
   }
 }
 
-#modal {
+#modalCart,
+#modalEntity {
   width: 100vw;
   height: 100vh;
   z-index: 9999;
@@ -112,13 +115,18 @@ header {
 
     .btn-close {
       position: absolute;
-      right: 10px;
-      top: 5px;
+      right: 20px;
+      top: 20px;
+
       &:focus {
         box-shadow: none;
       }
     }
+  }
+}
 
+#modalEntity {
+  .modal-container {
     &__entity-media {
       img {
         width: 300px;
@@ -154,6 +162,42 @@ header {
             background: #FFF;
             box-shadow: 1px 1px 5px 0 #A1A1A1;
           }
+        }
+      }
+    }
+  }
+}
+
+#modalCart {
+  .modal-container {
+    background: #F8F9FA;
+
+    .total-sum {
+      margin: 20px 10px;
+      font-size: 20px;
+    }
+
+    .entities {
+      overflow-y: scroll;
+      padding-bottom: 50px;
+
+      .entity {
+        margin: 20px 0;
+
+        img {
+          width: 80px;
+          height: 80px;
+          margin-right: 20px;
+        }
+
+        .title {
+          font-weight: 500;
+          font-size: 18px;
+        }
+
+        .size-text {
+          font-size: 12px;
+          color: #AEAEAE;
         }
       }
     }
